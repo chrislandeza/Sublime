@@ -1,0 +1,21 @@
+[
+	{
+	"keys": ["alt+2"],
+	"command": "toggle_setting",
+	"args":
+		{
+		    "setting": "line_numbers"
+		}
+	},
+	{ "keys": ["alt+1"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+
+	{ "keys": ["f9"], "command": "expand_fqcn"},
+	{ "keys": ["f10"], "command": "find_use"},
+	{ "keys": ["f7"], "command": "insert_php_constructor_property"},
+
+
+	{ "keys": ["ctrl+shift+alt+n"], "command": "goto_symbol_in_project" }
+]
+
